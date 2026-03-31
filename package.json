@@ -1,0 +1,24 @@
+{
+  "name": "math-adventure",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "generate-assets": "npx tsx scripts/generate-assets.ts",
+    "optimize-assets": "npx tsx scripts/optimize-assets.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "~5.9.3",
+    "vite": "^8.0.1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.3.1",
+    "phaser": "^3.90.0",
+    "tsx": "^4.21.0"
+  }
+}
